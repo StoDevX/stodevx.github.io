@@ -1,6 +1,7 @@
 ---
 title: StoMap
-categories: '??? stolaf'
+categories: [navigation]
+language: JavaScript
 layout: page
 repo: stomap
 has-page: true
