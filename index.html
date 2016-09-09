@@ -11,7 +11,7 @@ layout: default
           <a class="post-link" href="{{ p.url | prepend: site.baseurl }}">{{ p.title | escape }}</a>
         </h2>
         <nav class="links">
-          <a href="{{ p.url | prepend: 'https://github.com/stodevx/' }}">code</a>
+          <a href="{{ p.repo | prepend: 'https://github.com/stodevx/' }}">code</a>
           {% if p.has-page == true %}
             <a href="{{ p.repo | prepend: 'https://stodevx.github.io/' }}">site</a>
           {% endif %}
