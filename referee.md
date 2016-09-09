@@ -1,6 +1,7 @@
 ---
 title: Referee
-categories: ['???']
+categories: [utility, script]
+language: Shell
 layout: page
 repo: referee
 has-page: false
