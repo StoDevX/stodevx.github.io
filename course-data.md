@@ -1,6 +1,7 @@
 ---
 title: course-data
-categories: ['???']
+categories: [open-data]
+language: JSON
 layout: page
 repo: course-data
 has-page: false
