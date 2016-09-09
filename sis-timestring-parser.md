@@ -1,6 +1,7 @@
 ---
 title: SIS Timestring Parser
-categories: ['???']
+categories: [utility, script]
+language: JavaScript
 layout: page
 repo: sis-timestring-parser
 has-page: false
