@@ -1,6 +1,7 @@
 ---
 title: PaperCut Scraper
-categories: ['???']
+categories: [utility, open-data, data-visualization]
+language: JavaScript
 layout: page
 repo: PaperCut-Scraper
 has-page: true
