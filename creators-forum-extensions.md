@@ -1,6 +1,7 @@
 ---
 title: creators-forum-extensions
-categories: ['???']
+categories: [extension]
+language: JavaScript
 layout: page
 repo: creators-forum-extensions
 has-page: false
