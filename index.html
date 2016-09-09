@@ -13,7 +13,13 @@ layout: default
         <nav class="links">
           <a href="{{ p.repo | prepend: 'https://github.com/stodevx/' }}">code</a>
           {% if p.has-page == true %}
-            <a href="{{ p.repo | prepend: 'https://stodevx.github.io/' }}">site</a>
+            {% if p.page %}
+            <a href="{{ p.page }}">
+            {% else %}
+            <a href="{{ p.repo | prepend: 'https://stodevx.github.io/' }}">
+            {% endif %}
+            site
+            </a>
           {% endif %}
         </nav>
       </header>
