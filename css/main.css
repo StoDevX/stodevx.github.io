@@ -116,10 +116,29 @@ a {
   --header-bg: var(--accent);
   --header-color: var(--bg);
   --padding: 10px;
+
+  overflow: hidden;
   flex: 1 1 200px;
   margin: 10px;
   background-color: var(--bg);
-  /*border: solid 5px var(--accent);*/
+  border: 1px solid rgba(0,0,0,0.075);
+  border-bottom-color: rgba(0,0,0,0.125);
+  border-radius: 4px;
+
+  box-shadow:
+    0px 1px 2px rgba(0, 0, 0, 0.05),
+    0px 5px 10px rgba(0, 0, 0, 0.05);
+
+  transition:
+    border-color 0.1s ease-in-out,
+    box-shadow 0.1s ease-in-out;
+}
+
+.box:hover {
+  border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.15);
+  box-shadow:
+    0 1px 3px rgba(0,0,0,0.05),
+    0 8px 15px rgba(0,0,0,0.1);
 }
 
 .box header {
