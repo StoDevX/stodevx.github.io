@@ -20,6 +20,7 @@ description: > # this means to ignore newlines for the value
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "https://stodevx.github.io" # the base hostname & protocol for your site
 github_username: stodevx
+github_url: https://github.com/stodevx
 lang: en-US
 
 # Build settings
