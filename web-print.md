@@ -1,9 +1,10 @@
 ---
 title: WebPrint
-categories: ['???']
+categories: [utility, extension]
+language: JavaScript
 layout: page
 repo: web-print
 has-page: false
 ---
 
-I have no idea anymore
+[...] A browser plugin to print to St. Olaf College printers.
