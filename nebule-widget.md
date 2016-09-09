@@ -1,6 +1,7 @@
 ---
 title: Nebule.widget
-categories: ['???']
+categories: [utility]
+language: CoffeeScript
 layout: page
 repo: nebule.widget
 has-page: false
