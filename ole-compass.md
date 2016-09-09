@@ -6,4 +6,4 @@ repo: ole-compass
 has-page: false
 ---
 
-Fine the shortest path around campus
+Find the shortest path around campus
