@@ -1,6 +1,7 @@
 ---
 title: Purple Dragons
-categories: ['???']
+categories: [capstone-project]
+language: Shell
 layout: page
 repo: purple-dragons
 has-page: false
