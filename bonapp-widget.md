@@ -1,6 +1,6 @@
 ---
 title: BonApp.widget
-categories: [Dining, Übersicht]
+categories: [dining, Übersicht]
 language: JavaScript
 layout: page
 repo: BonApp-Widget
