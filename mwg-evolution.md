@@ -1,6 +1,7 @@
 ---
 title: mwg-evolution
 categories: ['game']
+language: JavaScript
 layout: page
 repo: MWG_Evolution
 has-page: true
