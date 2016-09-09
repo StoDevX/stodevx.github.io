@@ -1,0 +1,154 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+:root {
+
+--aqua:  #7FDBFF;
+--blue:  #0074D9;
+--navy:  #001F3F;
+--teal:  #39CCCC;
+--green: #2ECC40;
+--olive: #3D9970;
+--lime:  #01FF70;
+
+--yellow:  #FFDC00;
+--orange:  #FF851B;
+--red:     #FF4136;
+--fuchsia: #F012BE;
+--purple:  #B10DC9;
+--maroon:  #85144B;
+
+--white:  #FFFFFF;
+--silver: #DDDDDD;
+--gray:   #AAAAAA;
+--black:  #111111;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 50em;
+  font-family: Georgia, serif;
+  line-height: 1.5;
+  color: #444;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+strong {
+  color: #222;
+}
+
+a { color: var(--blue); }
+a:visited { color: var(--maroon); }
+
+a {
+  color: inherit;
+}
+
+.site-header {
+  min-height: 300px;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.site-header,
+.site-footer {
+  background-color: var(--teal);
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.site-footer {
+  font-size: 0.8rem;
+}
+
+.site-header,
+.page-content,
+.site-footer {
+  padding: 1em 0;
+}
+
+.page-content {
+  flex: 1;
+}
+
+.box-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-flow: row wrap;
+}
+
+
+.box.category-app {
+  --bg: #fef0ea;
+  --accent: #ef6328;
+}
+
+.box.category-game {
+  --bg: #eaf7fc;
+  --accent: #1aa8e1;
+}
+
+.box.category-sd-project {
+  --bg: #fdfae7;
+  --accent: #e9cb00;
+}
+
+.box {
+  --bg: var(--silver);
+  --accent: var(--black);
+  --header-bg: var(--accent);
+  --header-color: var(--bg);
+  --padding: 10px;
+  flex: 1 1 200px;
+  margin: 10px;
+  background-color: var(--bg);
+  /*border: solid 5px var(--accent);*/
+}
+
+.box header {
+  background-color: var(--accent);
+  color: var(--bg);
+  text-align: center;
+  padding: var(--padding);
+}
+
+.box .content {
+  padding: var(--padding);
+}
+
+.box .content p {
+  margin: 0;
+}
+
+.box header h2 {
+  margin: 0;
+  color: inherit;
+  text-decoration: none;
+}
+
+.box a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.box .content a,
+.box .links a {
+  text-decoration: underline;
+}
