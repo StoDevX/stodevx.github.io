@@ -1,7 +1,7 @@
 ---
 title: Referee
 categories: [utility, script]
-language: Shell
+language: Python
 layout: page
 repo: referee
 has-page: false
