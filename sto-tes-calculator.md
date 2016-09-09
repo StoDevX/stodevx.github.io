@@ -1,6 +1,7 @@
 ---
 title: TES Calculator
-categories: ['???']
+categories: [utility, script, data-visualization]
+language: Python
 layout: page
 repo: sto-tes-calculator
 has-page: false
