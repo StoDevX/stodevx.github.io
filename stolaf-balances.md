@@ -1,6 +1,7 @@
 ---
 title: St. Olaf Balances
-categories: ['???']
+categories: [app]
+language: Objective-C
 layout: page
 repo: Saint-Olaf-Balances
 has-page: false
