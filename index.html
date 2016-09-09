@@ -23,6 +23,13 @@ layout: default
           {% endif %}
         </nav>
       </header>
+      {% if p.categories %}
+      <nav class="categories">
+        {% for c in p.categories %}
+        <span class="category-tag">{{ c }}</span>
+        {% endfor %}
+      </nav>
+      {% endif %}
       <div class="content">
         {{ p.content }}
       </div>

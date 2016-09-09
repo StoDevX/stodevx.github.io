@@ -167,6 +167,13 @@ a {
   color: inherit;
 }
 
+.box .categories {
+  padding: calc(var(--padding) / 2) var(--padding) 0;
+}
+.box .category-tag:not(:last-child)::after {
+  content: ',';
+}
+
 .box .content a,
 .box .links a {
   text-decoration: underline;
