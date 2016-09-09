@@ -1,6 +1,7 @@
 ---
 title: ksto-radio
-categories: ['???']
+categories: [app, audio]
+language: Objective-C
 layout: page
 repo: ksto-radio
 has-page: false
