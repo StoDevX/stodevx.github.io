@@ -1,6 +1,7 @@
 ---
 title: cs251-toolkit
-categories: ['???']
+categories: [utility]
+language: Python
 layout: page
 repo: cs251-toolkit
 has-page: false
