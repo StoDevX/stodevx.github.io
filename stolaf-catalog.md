@@ -1,6 +1,7 @@
 ---
 title: St. Olaf Course Catalog
-categories: ['???']
+categories: [open-data]
+language: HTML
 layout: page
 repo: stolaf-catalog
 has-page: false
