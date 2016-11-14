@@ -4,7 +4,9 @@ layout: default
 <article class="post">
 
   <header class="post-header">
-    <h1 class="post-title">{{ page.title | escape }}</h1>
+    {% assign custom_url = page.url | append: page.baseurl %}
+    {% assign full_base_url = page.github_url | default: custom_url %}
+    <a class="site-title" href="{{ full_base_url }}/">{{ page.title | escape }}</a>
   </header>
 
   <div class="post-content">
