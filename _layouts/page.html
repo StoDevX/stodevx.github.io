@@ -6,7 +6,7 @@ layout: default
   <header class="post-header">
     {% assign custom_url = page.url | append: page.baseurl %}
     {% assign full_base_url = page.github_url | default: custom_url %}
-    <a class="site-title" href="{{ full_base_url }}/">{{ page.title | escape }}</a>
+    <h1 class="post-title"><a class="site-title" href="{{ full_base_url }}/">{{ page.title | escape }}</a></h1>
   </header>
 
   <div class="post-content">
