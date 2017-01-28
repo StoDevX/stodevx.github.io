@@ -3,7 +3,7 @@ title: All About Olaf
 categories: [app]
 language: JavaScript
 layout: page
-repo: aao-react-native
+repo: all-about-olaf
 has-page: false
 ---
 
